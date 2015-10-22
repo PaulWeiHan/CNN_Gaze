@@ -1,0 +1,43 @@
+尝试使用CNN实现视线预测
+会逐步从简单的神经网络实现入手，搭起自己的CNN模型。
+
+第一步拟实现LeNet5
+主要参考：
+    
+    1，深度学习教程网站的python代码
+
+    http://deeplearning.net/tutorial/lenet.html#lenet
+    http://blog.csdn.net/u012162613/article/details/43225445
+    基于python theano实现的经典LeNet结构，第二个链接对第一个链接中给出的代码进行了注释：
+    代码来自于深度学习教程：Convolutional Neural Networks (LeNet) ［第一个链接］，这个代码实现的是一个简化了的LeNet5，具体如下：
+    没有实现location-specific gain and bias parameters
+    用的是maxpooling，而不是average_pooling
+    分类器用的是softmax，LeNet5用的是rbf
+    LeNet5第二层并不是全连接的，本程序实现的是全连接
+    另外，代码里将卷积层和子采用层合在一起，定义为“LeNetConvPoolLayer“（卷积采样层），这好理解，因为它们总是成对出现。但是有个地方需要注意，代码中将卷积后的输出直接作为子采样层的输入，而没有加偏置b再通过sigmoid函数进行映射，即没有了下图中fx后面的bx以及sigmoid映射，也即直接由fx得到Cx。
+
+    最后，代码中第一个卷积层用的卷积核有20个，第二个卷积层用50个，而不是上面那张LeNet5图中所示的6个和16个。
+
+
+    2，斯坦福的cs231n课程网站：
+    http://cs231n.stanford.edu
+    http://cs231n.stanford.edu/syllabus.html
+
+    3，Hacker's guide to Neural Networks
+    理解BP，SVM，NN算法及其实现
+    http://karpathy.github.io/neuralnets/
+
+    4，Unsupervised Feature Learning and Deep Learning
+    http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
+
+    5，代码基于githup的Deep Learning的toolbox
+    https://github.com/rasmusbergpalm/DeepLearnToolbox
+    http://blog.csdn.net/zouxy09/article/details/9993743/
+
+    主要论文：
+    ［ CVPR 2015 ］ Appearance-Based Gaze Estimation in the Wild
+    ［ CVPR 2014 ］  Learning-by-Synthesis for Appearance-based 3D Gaze Estimation
+    经典论文：
+            Notes on Convolutional Neural Networks
+            Gradient-Based Learning Applied to Document Recognition
+
