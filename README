@@ -40,6 +40,8 @@
  ＊ 6，Caffe网站：
         http://caffe.berkeleyvision.org
 
+        Jia Y, Shelhamer E, Donahue J, et al. Caffe: Convolutional Architecture for Fast Feature Embedding[J]. Eprint Arxiv, 2014.
+
         http://www.csdn.net/article/2015-01-22/2823663
 
         CUDA：https://developer.nvidia.com/cuda-downloads
@@ -51,6 +53,29 @@
     主要论文：
     ［ CVPR 2015 ］ Appearance-Based Gaze Estimation in the Wild
     ［ CVPR 2014 ］  Learning-by-Synthesis for Appearance-based 3D Gaze Estimation
+
+    GoogLenet
+        Szegedy C, Liu W, Jia Y, et al. Going Deeper with Convolutions[J]. Eprint Arxiv, 2014.
+
+    DeepID-Net:
+        http://www.ee.cuhk.edu.hk/~wlouyang/projects/imagenetDeepId/index.html
+
+        Ouyang W, Luo P, Zeng X, et al. DeepID-Net: Deformable Deep Convolutional Neural Networks for Object Detection[C]. Computer Vision and Pattern Recognition (CVPR), 2015 IEEE Conference on. IEEE, 2015.
+
+        Ouyang W, Luo P, Zeng X, et al. DeepID-Net: multi-stage and deformable deep convolutional neural networks for object detection[J]. Eprint Arxiv, 2014.
+.       
+        Sun Y, Wang X, Tang X. Deep Learning Face Representation from Predicting 10,000 Classes[C]// Computer Vision and Pattern Recognition (CVPR), 2014 IEEE Conference on. IEEE, 2014:1891-1898.
+
+    RCNN:
+        https://github.com/rbgirshick/rcnn
+        bibtex
+        @inproceedings{girshick14CVPR,
+        Author = {Girshick, Ross and Donahue, Jeff and Darrell, Trevor and Malik, Jitendra},
+        Title = {Rich feature hierarchies for accurate object detection and semantic segmentation},
+        Booktitle = {Computer Vision and Pattern Recognition},
+        Year = {2014}
+        }
+
     经典论文：
             Notes on Convolutional Neural Networks
             Gradient-Based Learning Applied to Document Recognition
