@@ -1,11 +1,17 @@
 尝试使用CNN实现视线预测
 会逐步从简单的神经网络实现入手，搭起自己的CNN模型。
 
-第一步拟实现LeNet5
 
 项目进展参考网站：
 
 http://paulweihan.github.io
+
+实现LeNet5 model00 done
+改lenet5 model01-03 done
+改googlenet model04，05 done
+
+model00 得到和［ CVPR 2015 ］ Appearance-Based Gaze Estimation in the Wild 近似的结果
+
 
 主要参考：
     
